@@ -1,0 +1,243 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Course{
+   private String courseName;
+   private int totalCourseHours;
+   private int completedCourseHours;
+  
+   public String getCourseName() {
+       return courseName;
+   }
+   public void setCourseName(String courseName) {
+       this.courseName = courseName;
+   }
+   public int getTotalCourseHours() {
+       return totalCourseHours;
+   }
+   public void setTotalCourseHours(int totalCourseHours) {
+       this.totalCourseHours = totalCourseHours;
+   }
+   public int getCompletedCourseHours() {
+       return completedCourseHours;
+   }
+   public void setCompletedCourseHours(int completedCourseHours) {
+       this.completedCourseHours = completedCourseHours;
+   }
+  
+}
+
+public class Program {
+
+   public static void main(String[] args) {
+       ArrayList<Course> allCourses= new ArrayList<Course>();
+       Course temp;
+       int totalCreditHoursCompleted = 0;
+       Scanner sc=new Scanner(System.in);
+      
+       temp = new Course();
+       temp.setCourseName("ENGT 1000");
+       temp.setTotalCourseHours(1);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("ENGL 1110");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("MATH 1330");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 1010");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("CHEM 1230");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("Social Science Elective");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("ENGL 2950");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 1410");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 1020");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 2210");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("MATH 2450");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("PHYS 2010");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 2010");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("CSET 2200");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("MET 2100");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("MATH 2460");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("PHYS 2020");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 2020");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("ENGT 3010");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("ENGT 3020");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 3150");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 2410");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("Communication Elective");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("Humanities/Multicultural Elective");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 3250");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 3350");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("MET 2210");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("ENGT 2000");
+       temp.setTotalCourseHours(1);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("MET 2050");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("MET 2120");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 4350");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("Humanities Elective");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("Professional Development");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("EET 4450");
+       temp.setTotalCourseHours(4);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("ENGT 4050");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("Social Science Elective");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       temp = new Course();
+       temp.setCourseName("Multicultural Elective");
+       temp.setTotalCourseHours(3);
+       allCourses.add(temp);
+      
+       for(int i = 0;i < allCourses.size();i++){
+           temp = allCourses.get(i);
+           System.out.println("Enter the credit hours you have completed for the course " + temp.getCourseName() + "(" + temp.getTotalCourseHours() +")" + " : ");  
+           temp.setCompletedCourseHours(sc.nextInt());
+           allCourses.set(i, temp);
+       }
+      
+       for(int i = 0;i < allCourses.size();i++){
+           temp = allCourses.get(i);
+           System.out.println("You have " + (temp.getTotalCourseHours() - temp.getCompletedCourseHours()) + " " + temp.getCourseName() + " credit hours remaining.");  
+           totalCreditHoursCompleted += temp.getCompletedCourseHours();
+       }
+      
+       System.out.println("You have " + (128 - totalCreditHoursCompleted) + " CSET credit hours remaining.");
+      
+       if(totalCreditHoursCompleted == 128){
+           System.out.println("Congratulations!!! You have comleted all your Course work.");
+       }
+   }
+
+}
